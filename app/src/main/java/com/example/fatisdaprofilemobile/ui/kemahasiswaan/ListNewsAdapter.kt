@@ -30,6 +30,8 @@ class ListNewsAdapter(private val listNews: ArrayList<News>) : RecyclerView.Adap
         holder.imgView.setImageResource(img)
         holder.tvTitle.text = title
         holder.tvBody.text = body
+        holder.itemView.setOnClickListener {
+            onItemClickCallback.onItemClicked(listNews[holder.adapterPosition]) }
     }
 
     interface OnItemClickCallback {
