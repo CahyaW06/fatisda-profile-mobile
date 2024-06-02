@@ -1,6 +1,29 @@
 <resources>
+    <!--  Base App String  -->
     <string name="app_name">fatisdaprofilemobile</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_akademik">Akademik</string>
+    <string name="title_kemahasiswaan">Kemahasiswaan</string>
+    <string name="title_prodi">Prodi</string>
+
+    <string name="dummy_text">lorem ipsum</string>
+
+    <!--  Kemahasiswaan  -->
+    <string name="news_title">Berita Terkini</string>
+    <string name="description_news_img">News Image</string>
+    <integer-array name="news_img">
+        <item>@drawable/fatisda_uns_jalin_kerja_sama_dengan_national_chung_hsing_university_2</item>
+        <item>@drawable/prof_bambang_dinobatkan_sebagai_guru_besar_pertama_di_fatisda_uns_2</item>
+        <item>@drawable/mahasiswa_informatika_uns_juara_karya_tulis_ilmiah_gemastik_2022</item>
+    </integer-array>
+    <string-array name="news_title">
+        <item>FATISDA UNS Jalin Kerja Sama dengan National Chung Hsing University</item>
+        <item>Prof. Bambang Dinobatkan sebagai Guru Besar Pertama di FATISDA UNS</item>
+        <item>Ukir Sejarah, Mahasiswa UNS Raih Juara 2 Karya Tulis Ilmiah TIK GEMASTIK XV 2022</item>
+    </string-array>
+    <string-array name="news_body">
+        <item>UNS– Dalam rangka memperluas jaringan kerja sama, Fakultas Teknologi Informasi dan Sains Data (FATISDA) Universitas Sebelas Maret (UNS) Surakarta melakukan penandatangan Memorandum of Agreement (MoA) dengan National Chung Hsing University (NCHU) dan Rapixus, Inc. Taiwan.</item>
+        <item>UNS — Prof. Drs. Bambang Harjito, M.App.Sc., Ph.D., menjadi guru besar pertama yang dimiliki Fakultas Teknologi Informasi dan Sains Data (FATISDA) Universitas Sebelas Maret (UNS) Surakarta. </item>
+        <item>UNS — The A Team Universitas Sebelas Maret (UNS) Surakarta meraih Juara 2 Karya Tulis Ilmiah Teknologi Informasi dan Komunikasi (TIK) dalam Pagelaran Mahasiswa Nasional Bidang TIK (GEMASTIK) XV Tahun 2022.</item>
+    </string-array>
 </resources>
