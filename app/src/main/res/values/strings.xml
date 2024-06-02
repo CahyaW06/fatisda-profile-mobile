@@ -26,4 +26,7 @@
         <item>UNS — Prof. Drs. Bambang Harjito, M.App.Sc., Ph.D., menjadi guru besar pertama yang dimiliki Fakultas Teknologi Informasi dan Sains Data (FATISDA) Universitas Sebelas Maret (UNS) Surakarta. </item>
         <item>UNS — The A Team Universitas Sebelas Maret (UNS) Surakarta meraih Juara 2 Karya Tulis Ilmiah Teknologi Informasi dan Komunikasi (TIK) dalam Pagelaran Mahasiswa Nasional Bidang TIK (GEMASTIK) XV Tahun 2022.</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prodi">Prodi</string>
 </resources>

@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/navigation_prodi"
-        android:name="com.example.fatisdaprofilemobile.ui.kemahasiswaan.KemahasiswaanFragment"
-        android:label="@string/title_kemahasiswaan"
-        tools:layout="@layout/fragment_kemahasiswaan" />
+        android:name="com.example.fatisdaprofilemobile.ui.prodi.ProdiFragment"
+        android:label="@string/prodi"
+        tools:layout="@layout/fragment_prodi" />
 </navigation>
