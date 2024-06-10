@@ -26,6 +26,12 @@
         <item>UNS — Prof. Drs. Bambang Harjito, M.App.Sc., Ph.D., menjadi guru besar pertama yang dimiliki Fakultas Teknologi Informasi dan Sains Data (FATISDA) Universitas Sebelas Maret (UNS) Surakarta. </item>
         <item>UNS — The A Team Universitas Sebelas Maret (UNS) Surakarta meraih Juara 2 Karya Tulis Ilmiah Teknologi Informasi dan Komunikasi (TIK) dalam Pagelaran Mahasiswa Nasional Bidang TIK (GEMASTIK) XV Tahun 2022.</item>
     </string-array>
+    <string name="stat_title">Sumber Daya Manusia</string>
+    <string name="hima_description_img">Logo HIMASTER</string>
+    <string name="hima_title">Meet Our HIMASTER</string>
+    <string name="hima_body"><b>Himpunan Mahasiswa Informatika/Himaster</b> merupakan sebuah organisasi kemahasiswaan yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) di Fakultas Teknologi Informasi dan Sains Data (FATISDA) Universitas Sebelas Maret.</string>
+    <string name="hima_btn">See More</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="prodi">Prodi</string>
