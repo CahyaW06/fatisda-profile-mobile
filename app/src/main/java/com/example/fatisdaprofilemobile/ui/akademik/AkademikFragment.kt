@@ -5,11 +5,14 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.LinearSmoothScroller
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.os.Handler
+import android.os.Looper
 import com.example.fatisdaprofilemobile.R
 
 class AkademikFragment : Fragment() {
@@ -17,6 +20,10 @@ class AkademikFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var akademikAdapter: AkademikAdapter
     private lateinit var akademikList: MutableList<Akademik>
+    private lateinit var autoScrollRunnable: Runnable
+    private lateinit var autoScrollHandler: Handler
+    private var currentIndex = 0
+    private val scrollDelay = 3000L
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,7 +31,9 @@ class AkademikFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_akademik, container, false)
         recyclerView = view.findViewById(R.id.rv_akademik)
-        recyclerView.layoutManager = LinearLayoutManager(context)
+        recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false) // Set horizontal scroll
+
+        recyclerView.isHorizontalScrollBarEnabled = false
 
         // Inisialisasi akademikList
         akademikList = mutableListOf()
@@ -56,4 +65,28 @@ class AkademikFragment : Fragment() {
 
         return view
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        autoScrollHandler = Handler(Looper.getMainLooper())
+
+        val smoothScroller: LinearSmoothScroller = object : LinearSmoothScroller(context) {
+            override fun calculateSpeedPerPixel(displayMetrics: android.util.DisplayMetrics): Float {
+                return 100f / displayMetrics.densityDpi // Adjust the value to control the speed, smaller make faster
+            }
+        }
+
+        autoScrollRunnable = Runnable {
+            currentIndex++
+            if (currentIndex >= akademikList.size) {
+                currentIndex = 0
+            }
+            smoothScroller.targetPosition = currentIndex
+            recyclerView.layoutManager?.startSmoothScroll(smoothScroller)
+            autoScrollHandler.postDelayed(autoScrollRunnable, scrollDelay)
+        }
+
+        autoScrollHandler.postDelayed(autoScrollRunnable, scrollDelay)
+    }
 }
+
