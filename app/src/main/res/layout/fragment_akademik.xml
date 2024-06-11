@@ -31,8 +31,8 @@
             android:clipToPadding="false"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:background="@android:color/white"
-            android:scrollbars="vertical" />
+            android:scrollbars="vertical"
+            android:background="@color/primary_blue"/>
 
         <!-- Kurikulum Fatisda -->
         <TextView
@@ -60,24 +60,19 @@
             android:gravity="top"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="128dp"
-                android:layout_height="128dp"
-                android:contentDescription="Gambar Kurikulum Fatisda"
-                android:src="@drawable/himaster" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="16dp">
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Teks tentang kurikulum Fatisda"
-                    android:textSize="12sp"
+                    android:text="@string/deskripsi_kurikulum"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
                     android:layout_marginBottom="8dp"/>
 
                 <Button
@@ -85,7 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:layout_marginTop="4dp"
-                    android:text="Lihat Detail Kurikulum"/>
+                    android:text="Lihat Detail"/>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

@@ -1,5 +1,7 @@
 package com.example.fatisdaprofilemobile.ui.akademik
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -7,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import com.example.fatisdaprofilemobile.R
 
 class AkademikFragment : Fragment() {
@@ -43,6 +46,13 @@ class AkademikFragment : Fragment() {
 
         akademikAdapter = AkademikAdapter(requireContext()) // Menggunakan requireContext() untuk mendapatkan Context dari Fragment
         recyclerView.adapter = akademikAdapter
+
+        // Implementasi aksi untuk tombol "HIMA"
+        val kurikulumBtn = view.findViewById<Button>(R.id.kurikulum_btn)
+        kurikulumBtn.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://if.fatisda.uns.ac.id/akademik/kurikulum/"))
+            startActivity(intent)
+        }
 
         return view
     }

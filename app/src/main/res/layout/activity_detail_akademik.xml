@@ -30,8 +30,8 @@
         android:id="@+id/tv_tanggal_akademik"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:textColor="@color/black"
         android:paddingBottom="8dp" />
 
     <TextView

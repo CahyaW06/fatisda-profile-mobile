@@ -15,10 +15,16 @@
     <string-array name="judul_akademik">
         <item>Pengumuman tentang Pengambilan Mata Kuliah Semester Ganjil 2023-2024 S1 Informatika UNS</item>
         <item>Jadwal Pengisian KRS FATISDA Semester Ganjil 2023/2024</item>
+        <item>Keputusan Program Studi terkait Pengajuan Hibah MBKM oleh Mahasiswa</item>
+        <item>Pengumuman Terkait Proyek Perangkat Lunak Semester 6</item>
+        <item>Lowongan Magang Industri di Meiwa corp.</item>
     </string-array>
     <string-array name="tanggal_akademik">
         <item>11 Agustus 2023</item>
         <item>9 Agustus 2023</item>
+        <item>7 Februari 2023</item>
+        <item>2 Februari 2023</item>
+        <item>20 Desember 2022</item>
     </string-array>
     <string-array name="deskripsi_akademik">
         <item>Mempertimbangkan kuota mata kuliah yang tayang pada semester ganjil 2023-2024 ini, pengelola prodi Informatika memutuskan hal-hal sebagai berikut terkait pengambilan mata kuliah.\n\n
@@ -31,7 +37,21 @@
             1. Jadwal pengisian KRS Reguler (untuk mahasiswa lama yang tidak mengambil MBKM) akan dilaksanakan tanggal 10-22 Agustus 2023\n
             2. Jadwal pengisian KRS MBKM (untuk mahasiswa lama yang mengambil MBKM) akan dilaksanakan tanggal 18-22 Agustus 2023\n
             3. Jadwal pengisian KRS untuk mahasiswa baru akan dilaksanakan tanggal 24-25 Agustus 2023</item>
+        <item>Menanggapi surat Nomor : 9/UN27.24/KM/2023 tentang Penerimaan Proposal Hibah MBKM, dewan dosen program studi S1 Informatika telah mengadakan rapat pada tanggal 7 Februari 2023 dan menyepakati hal-hal sebagai berikut :\n\n
+            1. Kegiatan yang diajukan dalam proposal Hibah MBKM harus bersinergi atau merupakan bagian dari aktivitas yang dilakukan oleh group dosen, semisal bagian dari pengabdian masyarakat, atau bagian dari penelitian grup riset dosen (sesuai poin d pada surat edaran).\n
+            2. Proposal hibah MBKM harus dikoordinasikan dengan dosen pembimbing akademik, grup riset dosen yang terkait, dan tim rekognisi prodi.\n
+            3. Apabila poin 1 dan 2 tidak terpenuhi, prodi tidak memberikan rekomendasi terhadap proposal yang diajukan.</item>
+        <item>Sesuai revisi kurikulum OBE S1 Informatika tahun 2020, mata kuliah Proyek Perangkat Lunak (0953233054) dijadikan sebagai mata kuliah wajib yang harus diambil mahasiswa S1 Informatika.\n\n
+            Mahasiswa semester 6 yang sudah mendapatkan rekognisi mata kuliah Proyek Perangkat Lunak dari kegiatan MBKM Startup Campus tidak perlu mengambil mata kuliah Proyek Perangkat Lunak (Team teaching).\n
+            Mahasiswa yang belum pernah mendapat rekognisi mata kuliah Proyek Perangkat Lunak atau belum pernah mengambil mata kuliah tersebut, wajib mengambil mata kuliah Proyek Perangkat Lunak dengan kode mata kuliah 0953233054 atau yang pada jadwal tertulis sebagai Proyek Perangkat Lunak (Team teaching).</item>
+        <item>Dibuka kesempatan Magang Industri di Meiwa corp. (http://www.meiwacorp.co.jp/en/profile/index.html) untuk mahasiswa angkatan 2020 dan angkatan 2019 prodi Informatika MIPA UNS selama 1 semester (6 bulan).\n\n
+            Disediakan kuota 10 Mahasiswa yang akan diseleksi oleh Program Studi dan selanjutnya akan ada dilakukan wawancara oleh Meiwa Corp untuk di ambil 2 peserta terpilih.\n\n
+            Bagi mahasiswa yang tertarik mengikuti proses seleksi di tingkat Program Studi, silahkan mengisi form https://uns.id/magang-meiwa.</item>
     </string-array>
+    <string name="deskripsi_kurikulum">Kurikulum program pendidikan S1 yang sekarang digunakan di Program Studi Informatika merupakan kurikulum baru yang diberlakukan mulai tahun akedemik 2020/2021.
+        Dalam kurikulum ini, total Satuan Kredit Semester (SKS) normal yang harus ditempuh oleh mahasiswa adalah 114 SKS Mata Kuliah Wajib, 21 SKS Mata Kuliah Pilihan, dan 9 SKS Mata Kuliah Minat.
+        \nBeban perkuliahan tesebut dapat diselesaikan selama delapan semester. Dokumen kurikulum selengkapnya dapat diakses pada tombol dibawah.
+        Berikut disajikan tabel sebaran mata kuliah Prodi S1 Informatika Fakultas Teknologi Informasi dan Sains Data</string>
 
     <!--  Kemahasiswaan  -->
     <string name="news_title">Berita Terkini</string>
