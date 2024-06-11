@@ -44,10 +44,10 @@ class AkademikFragment : Fragment() {
             )
         }
 
-        akademikAdapter = AkademikAdapter(requireContext()) // Menggunakan requireContext() untuk mendapatkan Context dari Fragment
+        akademikAdapter = AkademikAdapter(requireContext())
         recyclerView.adapter = akademikAdapter
 
-        // Implementasi aksi untuk tombol "HIMA"
+        // Implementasi aksi untuk tombol "KURIKULUM"
         val kurikulumBtn = view.findViewById<Button>(R.id.kurikulum_btn)
         kurikulumBtn.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://if.fatisda.uns.ac.id/akademik/kurikulum/"))
