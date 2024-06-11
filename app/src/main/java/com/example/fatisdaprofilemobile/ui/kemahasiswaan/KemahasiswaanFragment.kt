@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.provider.CalendarContract.Colors
+import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,7 +27,6 @@ import com.github.mikephil.charting.utils.ColorTemplate
 
 
 class KemahasiswaanFragment : Fragment() {
-
     private var _binding: FragmentKemahasiswaanBinding? = null
 
     // This property is only valid between onCreateView and
@@ -99,9 +99,10 @@ class KemahasiswaanFragment : Fragment() {
         val dataTitle = resources.getStringArray(R.array.news_title)
         val dataBody = resources.getStringArray(R.array.news_body)
         val dataImg = resources.obtainTypedArray(R.array.news_img)
+        val dataMainNews = resources.getStringArray(R.array.news_main)
         val listNews = ArrayList<News>()
         for (i in dataTitle.indices) {
-            val news = News(dataTitle[i], dataBody[i], dataImg.getResourceId(i, -1))
+            val news = News(dataTitle[i], dataBody[i], dataImg.getResourceId(i, -1), dataMainNews[i])
             listNews.add(news)
         }
         return listNews
@@ -120,8 +121,9 @@ class KemahasiswaanFragment : Fragment() {
     }
 
     private fun showSelectedNews(news: News) {
-//        Toast.makeText(context, news.title.replace(" ", "-"), Toast.LENGTH_SHORT).show()
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://uns.ac.id/id/tag/fatisda-uns/".plus(news.title.replace(" ", "-")).plus(".html")))
+        val intent = Intent(context, NewsDetail::class.java).apply {
+            putExtra("Berita", news)
+        }
         startActivity(intent)
     }
 

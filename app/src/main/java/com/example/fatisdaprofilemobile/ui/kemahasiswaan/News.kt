@@ -7,5 +7,6 @@ import kotlinx.parcelize.Parcelize
 data class News(
     val title: String,
     val body: String,
-    val img: Int
+    val img: Int,
+    val mainNews: String
 ) : Parcelable

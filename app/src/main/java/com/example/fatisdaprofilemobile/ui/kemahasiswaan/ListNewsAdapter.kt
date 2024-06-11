@@ -15,7 +15,6 @@ class ListNewsAdapter(private val listNews: ArrayList<News>) : RecyclerView.Adap
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgView: ImageView = itemView.findViewById(R.id.rv_item_berita_img)
         val tvTitle: TextView = itemView.findViewById(R.id.rv_item_berita_title)
-        val tvBody: TextView = itemView.findViewById(R.id.rv_item_berita_body)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -29,7 +28,6 @@ class ListNewsAdapter(private val listNews: ArrayList<News>) : RecyclerView.Adap
         val (title, body, img) = listNews[position]
         holder.imgView.setImageResource(img)
         holder.tvTitle.text = title
-        holder.tvBody.text = body
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(listNews[holder.adapterPosition]) }
     }
