@@ -5,8 +5,33 @@
     <string name="title_akademik">Akademik</string>
     <string name="title_kemahasiswaan">Kemahasiswaan</string>
     <string name="title_prodi">Prodi</string>
+    <string name="judul_akademik">Judul Akademik</string>
+    <string name="tanggal_akademik">Tanggal Akademik</string>
+    <string name="deskripsi_akademik">Deskripsi Akademik</string>
 
     <string name="dummy_text">lorem ipsum</string>
+
+    <!--  Akademik  -->
+    <string-array name="judul_akademik">
+        <item>Pengumuman tentang Pengambilan Mata Kuliah Semester Ganjil 2023-2024 S1 Informatika UNS</item>
+        <item>Jadwal Pengisian KRS FATISDA Semester Ganjil 2023/2024</item>
+    </string-array>
+    <string-array name="tanggal_akademik">
+        <item>11 Agustus 2023</item>
+        <item>9 Agustus 2023</item>
+    </string-array>
+    <string-array name="deskripsi_akademik">
+        <item>Mempertimbangkan kuota mata kuliah yang tayang pada semester ganjil 2023-2024 ini, pengelola prodi Informatika memutuskan hal-hal sebagai berikut terkait pengambilan mata kuliah.\n\n
+            1. Semester 3 ambil paket semester 3 saja atau ditambah mengulang.\n
+            2. kuliah wajib minat dipriorotaskan bagi yang mengambil Track minat tersebut.\n
+            3. Mata kuliah pilihan hanya diberi kuota 25. Jika penuh silahkan mata kuliah pilihan yg lain.\n
+            4. Mahasiswa yang mengambil MBKM tidak diperkenankan mengambil mata kuliah reguler.\n
+            Demikian, harap menjadi perhatian untuk dilaksanakan.</item>
+        <item>Pengumuman untuk mahasiswa Fakultas Teknologi Informasi dan Sains Data\n\n
+            1. Jadwal pengisian KRS Reguler (untuk mahasiswa lama yang tidak mengambil MBKM) akan dilaksanakan tanggal 10-22 Agustus 2023\n
+            2. Jadwal pengisian KRS MBKM (untuk mahasiswa lama yang mengambil MBKM) akan dilaksanakan tanggal 18-22 Agustus 2023\n
+            3. Jadwal pengisian KRS untuk mahasiswa baru akan dilaksanakan tanggal 24-25 Agustus 2023</item>
+    </string-array>
 
     <!--  Kemahasiswaan  -->
     <string name="news_title">Berita Terkini</string>
