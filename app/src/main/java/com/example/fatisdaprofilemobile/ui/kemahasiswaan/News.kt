@@ -8,5 +8,6 @@ data class News(
     val title: String,
     val body: String,
     val img: Int,
-    val mainNews: String
+    val mainNews: String,
+    val date: String
 ) : Parcelable

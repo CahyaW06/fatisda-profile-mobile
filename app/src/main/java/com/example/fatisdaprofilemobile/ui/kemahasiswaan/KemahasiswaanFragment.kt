@@ -100,9 +100,10 @@ class KemahasiswaanFragment : Fragment() {
         val dataBody = resources.getStringArray(R.array.news_body)
         val dataImg = resources.obtainTypedArray(R.array.news_img)
         val dataMainNews = resources.getStringArray(R.array.news_main)
+        val dataDate = resources.getStringArray(R.array.news_date)
         val listNews = ArrayList<News>()
         for (i in dataTitle.indices) {
-            val news = News(dataTitle[i], dataBody[i], dataImg.getResourceId(i, -1), dataMainNews[i])
+            val news = News(dataTitle[i], dataBody[i], dataImg.getResourceId(i, -1), dataMainNews[i], dataDate[i])
             listNews.add(news)
         }
         return listNews

@@ -15,6 +15,7 @@ class ListNewsAdapter(private val listNews: ArrayList<News>) : RecyclerView.Adap
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgView: ImageView = itemView.findViewById(R.id.rv_item_berita_img)
         val tvTitle: TextView = itemView.findViewById(R.id.rv_item_berita_title)
+        val tvDate: TextView = itemView.findViewById(R.id.rv_item_berita_date)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -25,9 +26,10 @@ class ListNewsAdapter(private val listNews: ArrayList<News>) : RecyclerView.Adap
     override fun getItemCount(): Int = listNews.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (title, body, img) = listNews[position]
+        val (title, body, img, mainNews, date) = listNews[position]
         holder.imgView.setImageResource(img)
         holder.tvTitle.text = title
+        holder.tvDate.text = date
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(listNews[holder.adapterPosition]) }
     }

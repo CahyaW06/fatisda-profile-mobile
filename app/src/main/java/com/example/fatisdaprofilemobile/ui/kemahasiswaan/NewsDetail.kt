@@ -26,10 +26,12 @@ class NewsDetail : AppCompatActivity() {
             val titleView: TextView = findViewById(R.id.news_main_title)
             val bodyView: TextView = findViewById(R.id.news_main_body)
             val imgView: ImageView = findViewById(R.id.news_main_img)
+            val dateView: TextView = findViewById(R.id.news_main_date)
 
             titleView.text = newsData.title
             bodyView.text = HtmlCompat.fromHtml(newsData.mainNews, HtmlCompat.FROM_HTML_MODE_COMPACT)
             imgView.setImageResource(newsData.img)
+            dateView.text = newsData.date
         }
     }
 }

@@ -91,6 +91,11 @@
             &lt;p&gt;Redaktur: Dwi Hastuti&lt;/p&gt;&lt;br&gt;
         </item>
     </string-array>
+    <string-array name="news_date">
+        <item>April 23, 2024</item>
+        <item>March 8, 2023</item>
+        <item>December 6, 2022</item>
+    </string-array>
     <string name="stat_title">Sumber Daya Manusia</string>
     <string name="hima_description_img">Logo HIMASTER</string>
     <string name="hima_title">Meet Our HIMASTER</string>
