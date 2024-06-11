@@ -1,22 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.akademik.AkademikFragment">
 
-    <TextView
-        android:id="@+id/text_home"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="wrap_content">
+
+        <!-- Pengumuman Akademik -->
+        <TextView
+            android:id="@+id/tv_pengumuman_akademik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengumuman Akademik"
+            android:textColor="@color/primary_blue"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_alignParentTop="true" />
+
+        <!-- RecyclerView untuk Pengumuman Akademik -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_akademik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pengumuman_akademik"
+            android:layout_marginTop="16dp"
+            android:clipToPadding="false"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@android:color/white"
+            android:scrollbars="vertical" />
+
+        <!-- Kurikulum Fatisda -->
+        <TextView
+            android:id="@+id/tv_kurikulum_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Kurikulum Fatisda"
+            android:textColor="@color/primary_blue"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/rv_akademik"
+            android:layout_marginStart="24dp" />
+
+        <!-- Tampilan Kurikulum Fatisda -->
+        <LinearLayout
+            android:id="@+id/v_kurikulum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_kurikulum_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="36dp"
+            android:paddingBottom="48dp"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:contentDescription="Gambar Kurikulum Fatisda"
+                android:src="@drawable/himaster" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teks tentang kurikulum Fatisda"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:id="@+id/kurikulum_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Lihat Detail Kurikulum"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
