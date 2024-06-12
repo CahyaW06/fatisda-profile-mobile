@@ -141,6 +141,13 @@
 
     <string name="movie_name">Nama</string>
     <string name="description2">Deskripsi</string>
+    <string name="info_program_studi">Info Program Studi</string>
+    <string name="nama_prodi">Nama Prodi</string>
+    <string name="website_program_studi">Website Program Studi</string>
+    <string name="textview">TextView</string>
+    <string name="textview2">TextView2</string>
+    <string name="sains_data">Sains Data</string>
+    <string name="informatika">Informatika</string>
 
     <string-array name="data_name2">
         <item>Sejarah</item>
@@ -183,6 +190,30 @@
         <item><![CDATA[Sebagai tenaga profesional dalam pengembangan aplikasi sistem informasi\nMenjadi Programmer, Analisa Sistem , Konsultan sistem informasi\nSebagai tenaga profesional dalam bidang sistem basis data\nMenjadi Administrator basis data, tenaga teknis dan fungsional data mining, dan pengelola data warehousing\nSebagai tenaga profesional dalam bidang jaringan komputer\nMenjadi Administrator jaringan komputer lokal (LAN), Manajer jaringan internet, dan Webmaster]]></item>
         <item><![CDATA[Sebagai tenaga professional dalam pengembangan layanan berbasis teknologi informasi\nMenjadi pengelola lembaga penyedia jasa teknologi informasi dan pengembang sistem digital\nSebagai tenaga profesional dalam pelatihan teknologi informasi\nMenjadi pengelola lembaga pelatihan teknologi Informasi dan Instruktur dalam pelatihan teknologi informasi]]></item>
         <item><![CDATA[Sebagai tenaga professional dalam pengembangan keilmuan di bidang ilmu komputer dan teknologi informasi\nMenjadi Asisten peneliti, dosen, dan tenaga laboran bidang ilmu komputer dan teknologi informasi di berbagai lembaga penelitian atau PTN dan PTS\nSebagai tenaga pendukung bidang profesi lain non ilmu komputer\nMenjadi tenaga pendukung profesi bisnis dan perdagangan, dokter/ apoteker di Rumah Sakit, Polisi, Jaksa dan Hakim, dll]]></item>
+
+    </string-array>
+
+    <string-array name="data_namaProdi">
+        <item><![CDATA[INFORMATIKA]]></item>
+        <item><![CDATA[SAINS DATA]]></item>
+    </string-array>
+
+    <string-array name="data_fotoProdi">
+        <item>@drawable/informatika</item>
+        <item>@drawable/sainsdata</item>
+    </string-array>
+
+    <string-array name="data_deskripsiprodi">
+        <item>
+            <![CDATA[\tProgram Studi Informatika di Fakultas Teknologi Informasi dan Sains Data (FATISDA) Universitas Sebelas Maret (UNS) didirikan pada 29 Januari 2007 sebagai Program Studi Ilmu Komputer, dan berganti nama menjadi Program Studi Informatika pada tahun 2009. Program ini memiliki staf pengajar dengan kualifikasi minimal S2, terbagi dalam enam kelompok penelitian: Soft Computing, Computational Science, Information and Data Security, Information System, Network and Distributed System, dan Software Architecture and Engineering. Kurikulum Informatika mengacu pada ACM Computing Curricula 2005 dengan penyesuaian lokal, dan dievaluasi secara periodik melibatkan stakeholder dan alumni melalui survei kepuasan pelanggan serta studi pelacakan alumni.\n\n
+             \tDi bidang penelitian, Program Studi Informatika menyediakan fasilitas laboratorium penelitian yang memadai dan mempublikasikan hasil penelitian dalam jurnal nasional dan internasional serta seminar. Pencapaian dalam hibah penelitian juga signifikan. Dalam pengabdian kepada masyarakat, program studi ini mengimplementasikan hasil penelitian dan menyelenggarakan pelatihan ICT yang mendapat respons positif dari masyarakat. Kerjasama eksternal dilakukan dengan berbagai lembaga seperti PT TELKOM, GamaTechno, PT INKA, University of SAGA, dan University Technology of Malaya, mencakup magang, visiting professor, penelitian, dan kegiatan pengabdian masyarakat.\n\n
+             \tFasilitas belajar di Program Studi Informatika meliputi perpustakaan dengan jurnal internasional, tiga gedung berbagi pakai untuk perkuliahan, dan jaringan internet yang mencapai 350 Mbps. Sistem administrasi akademik mendukung layanan registrasi online, sistem akademik, beasiswa, dan program kreativitas mahasiswa. Penjaminan mutu internal diterapkan untuk meningkatkan proses pembelajaran, magang, dan tugas akhir, yang berdampak pada peningkatan IPK dan masa studi mahasiswa. Program Studi Informatika mendapatkan Akreditasi A dari BAN-PT, berlaku sejak 17 April 2018 hingga 17 April 2023.]]>
+        </item>
+
+        <item>
+            <![CDATA[\tProgram Studi Informatika FMIPA UNS adalah salah satu program studi di Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Sebelas Maret Surakarta yang berdiri sejak tanggal 29 Januari 2007 dengan nama Program Studi Ilmu Komputer melalui SK Pendirian 163/D/T/2007. Dan dengan adanya SK Dirjen DIKTI No. 163/KEP/DIKTI/2007 tentang Penataan dan Kodifikasi Program Studi maka mulai tahun 2009 nama Jurusan Ilmu Komputer berubah menjadi Jurusan Informatika.
+            \tPada __ Maret 2022 Fakultas Teknologi Informasi dan Sains Data (FTISD) diresmikan melalui SK __. Pengembangan Fakultas Teknologi dan Sains Data (FTISD) dalam rangka mendukung pencapaian Visi Misi Universitas Sebelas Maret, khususnya dalam pengembangan Ilmu dan Teknologi. FTISD berfokus kepadan kajian tentang Artificial Intelligence (AI), Internet of Things (IoT), dan Data Science (DS).]]>
+        </item>
 
     </string-array>
 </resources>

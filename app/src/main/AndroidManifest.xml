@@ -24,7 +24,8 @@
         </activity>
 
         <activity android:name=".ui.akademik.DetailAkademikActivity" />
-        <activity android:name=".ui.kemahasiswaan.NewsDetail"/>
+        <activity android:name=".ui.kemahasiswaan.NewsDetail" />
+        <activity android:name=".ui.prodi.DetailProdi"/>
 
     </application>
 
