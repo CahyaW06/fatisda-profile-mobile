@@ -1,13 +1,16 @@
 <resources>
     <!--  Base App String  -->
     <string name="app_name">fatisdaprofilemobile</string>
-    <string name="title_profil">Profil</string>
     <string name="title_akademik">Akademik</string>
     <string name="title_kemahasiswaan">SDM</string>
     <string name="title_prodi">Prodi</string>
     <string name="judul_akademik">Judul Akademik</string>
     <string name="tanggal_akademik">Tanggal Akademik</string>
     <string name="deskripsi_akademik">Deskripsi Akademik</string>
+    <string name="title_profil">Profile</string>
+    <string name="title_profile">Profile</string>
+
+
 
     <string name="dummy_text">lorem ipsum</string>
     <string name="dummy_text2">Alan</string>
@@ -126,4 +129,60 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="prodi">Prodi</string>
+
+    <!--  Kemahasiswaan  -->
+
+    <string name="profile_text">FAKULTAS\nTEKNOLOGI INFORMASI DAN SAINS DATA\nUNIVERSITAS SEBELAS MARET</string>
+    <string name="buttom1">Sejarah</string>
+    <string name="buttom2">Visi Misi Tujuan</string>
+    <string name="buttom3">Kompetensi Lulusan</string>
+    <string name="buttom4">Struktur Organisasi</string>
+    <string name="buttom5">Profil Pengajar</string>
+
+    <string name="movie_name">Nama</string>
+    <string name="description2">Deskripsi</string>
+
+    <string-array name="data_name2">
+        <item>Sejarah</item>
+
+    </string-array>
+
+    <string-array name="data_desc2">
+    <item><![CDATA[Program Studi Informatika FATISDA UNS adalah salah satu program studi di Fakultas Teknologi Informasi dan Sains Data Universitas Sebelas Maret Surakarta yang berdiri sejak tanggal 29 Januari 2007 dengan nama Program Studi Ilmu Komputer melalui SK Pendirian 163/D/T/2007.\n\nPada tahun 2009 berganti nama menjadi Program Studi Informatika berdasarkan pada surat perpanjangan ijin operasional.\n\nProgram Studi Informatika FATISDA UNS saat ini memiliki staf pengajar berpendidikan minimal S2 (Magister/Master) baik dari dalam maupun luar negeri yang terbagi dalam 6 (enam) kelompok penelitian yaitu:\nSoft Computing (SC), Computational Science (CS), Information and Data Security (IDS), Information System (IS), Network and Distributed System, Software Architecture and Engineering (SAE).\n\nPengembangan staf Program Studi Teknik Informatika FATISDA UNS dilakukan dengan melakukan pengiriman staf mengikuti pelatihan, seminar (conference), dan studi lanjut baik di dalam maupun ke luar negeri.\n\nKurikulum Program Studi Informatika FATISDA UNS mengacu salah satunya pada ACM Computing Curricula 2005 yang disesuaikan dengan penambahan muatan lokal.\nSecara periodik kurikulum dievaluasi dan disesuaikan dengan kondisi yang berkembang dengan melibatkan seluruh staf akademik melalui lokakarya setiap dua tahun.\nKeterlibatan stakeholder dan alumni diwujudkan dalam bentuk survei kepuasan pelanggan serta studi pelacakan alumni (tracer studi) yang rutin dilakukan dalam jangka waktu tiap semester/tiap tahun.\n\nDi bidang penelitian Program Studi Informatika FATISDA UNS memberikan fasilitas kepada dosen berupa ketersediaan fasilitas laboratorium penelitian, yang terdiri dari SI, RPL, IRK serta JST.\nKeluaran dari penelitian telah dipublikasikan melalui jurnal internasional, jurnal nasional dan melalui seminar/konferensi baik tingkat nasional maupun internasional.\nPencapaian penelitian yang lolos dalam hibah pendanaan penelitian juga cukup besar, paling tidak satu proposal bisa dibiayai dalam satu skema hibah.\n\nPengabdian kepada Masyarakat dilakukan Program Studi Informatika dengan dua skema, yaitu pengimplementasian hasil penelitian dan pelatihan.\nPelatihan pemanfaatan ICT untuk pembelajaran ternyata memperoleh tanggapan yang cukup baik dari masyarakat.\nHal tersebut terbukti dari adanya permintaan pelatihan dari pihak sekolah/kelompok sekolah.\n\nDi bidang kerjasama dengan pihak eksternal, Program Studi Informatika FATISDA UNS melakukan kerjasama dalam bentuk kegiatan magang, visiting professor/lecturer, penelitian dan pengabdian masyarakat serta pembelajaran yang mengarah pada kurikulum.\nLembaga/institusi tersebut berasal dari dalam negeri antara lain: PT TELKOM, GamaTechno, dan PT INKA maupun luar negeri antara lain University of SAGA, dan University Technology of Malaya (UTeM).\n\nProgram Studi Informatika memiliki fasilitas belajar berupa perpustakaan (di tingkat Universitas dan Fakultas) yang didukung dengan ketersediaan jurnal internasional terbaru.\nUntuk penyelenggaraan perkuliahan di tiga gedung berbagi pakai dengan program studi lain di FMIPA UNS.\nSelain itu untuk kepentingan koneksi jaringan internet di UNS saat ini sudah mencapai 350 Mbps, dengan setiap mahasiswa sudah bisa mencapai maksimal 512 Kbps.\nSistem pengelolaan dan pemeliharaan fasilitas fisik (Gedung/bangunan) dilakukan di tingkat Fakultas, melalui sub bagian Umum dan Perlengkapan.\nLayanan Administrasi Akademik dan Kemahasiswaan telah dilakukan dengan dukungan sistem informasi antara lain layanan Registrasi secara Online, Sistem Akademik (Pengambilan Mata Kuliah, Jadwal dan Penilaian), Beasiswa dan Program Kreativitas Mahasiswa.\n\nDari aspek Sistem Penjaminan Kualitas Program Studi Informatika FATISDA UNS meliputi input, proses PBM dan output serta outcome.\nPenjaminan mutu internal diterapkan pada perbaikan proses pembelajaran, pelaksanaan magang mahasiswa serta pelaksanaan tugas akhir.\nDampaknya antara lain meningkatnya IPK mahasiswa dan kecepatan penyelesaian tugas akhir yang berimbas pada masa studi.\nUntuk kepentingan tersebut Program Studi Teknik Informatika mendatangkan Tenaga Ahli dalam pengembangan pembelajaran dan penelitian.\n\nProgram Studi Informatika telah selesai melakukan proses re-akreditasi program studi.\nBerdasarkan keputusan BAN-PT No. 1081/SK/BAN-PT/Akred/S/IV/2018, program studi Informatika UNS memperoleh Akreditasi A yang berlaku selama 5 (lima) tahun sejak tanggal 17 April 2018 hingga 17 April 2023.
+]]></item>
+    </string-array>
+
+    <string-array name="data_name3">
+        <item>VISI</item>
+        <item>MISI</item>
+        <item>TUJUAN</item>
+
+    </string-array>
+
+    <string-array name="data_desc3">
+        <item><![CDATA[Sebagai penyelenggara pendidikan bidang Informatika yang berkualitas dan mampu bersaing di tingkat internasional]]></item>
+        <item><![CDATA[Menyelenggarakan kegiatan pendidikan dan pengajaran yang terencana, terarah, dan berkelanjutan\n
+                Melakukan kajian dan penelitian di bidang Informatika yang bermanfaat dan meningkatkan daya saing bangsa\n
+                Melaksanakan pengabdian pada masyarakat sesuai dengan kompetensi dalam bidang Informatika
+                ]]></item>
+        <item><![CDATA[Dihasilkannya sarjana Informatika yang berkarakter, profesional, dan mandiri\n
+                Dihasilkannya produk kajian dan penelitian pada bidang Informatika yang dapat berguna dan berdaya saing\n
+                Diterapkannya hasil kajian dan penelitian untuk membantu meningkatkan kualitas kehidupan masyarakat\n
+                ]]></item>
+
+    </string-array>
+
+    <string-array name="data_name4">
+        <item>Kompentensi Utama</item>
+        <item>Kompentensi Pendukung</item>
+        <item>Kompetensi Pilihan</item>
+
+    </string-array>
+
+    <string-array name="data_desc4">
+        <item><![CDATA[Sebagai tenaga profesional dalam pengembangan aplikasi sistem informasi\nMenjadi Programmer, Analisa Sistem , Konsultan sistem informasi\nSebagai tenaga profesional dalam bidang sistem basis data\nMenjadi Administrator basis data, tenaga teknis dan fungsional data mining, dan pengelola data warehousing\nSebagai tenaga profesional dalam bidang jaringan komputer\nMenjadi Administrator jaringan komputer lokal (LAN), Manajer jaringan internet, dan Webmaster]]></item>
+        <item><![CDATA[Sebagai tenaga professional dalam pengembangan layanan berbasis teknologi informasi\nMenjadi pengelola lembaga penyedia jasa teknologi informasi dan pengembang sistem digital\nSebagai tenaga profesional dalam pelatihan teknologi informasi\nMenjadi pengelola lembaga pelatihan teknologi Informasi dan Instruktur dalam pelatihan teknologi informasi]]></item>
+        <item><![CDATA[Sebagai tenaga professional dalam pengembangan keilmuan di bidang ilmu komputer dan teknologi informasi\nMenjadi Asisten peneliti, dosen, dan tenaga laboran bidang ilmu komputer dan teknologi informasi di berbagai lembaga penelitian atau PTN dan PTS\nSebagai tenaga pendukung bidang profesi lain non ilmu komputer\nMenjadi tenaga pendukung profesi bisnis dan perdagangan, dokter/ apoteker di Rumah Sakit, Polisi, Jaksa dan Hakim, dll]]></item>
+
+    </string-array>
 </resources>

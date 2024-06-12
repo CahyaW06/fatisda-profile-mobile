@@ -3,19 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_profil">
+    app:startDestination="@+id/navigation_profile">
 
     <fragment
         android:id="@+id/navigation_akademik"
         android:name="com.example.fatisdaprofilemobile.ui.akademik.AkademikFragment"
         android:label="@string/title_akademik"
         tools:layout="@layout/fragment_akademik" />
-
-    <fragment
-        android:id="@+id/navigation_profil"
-        android:name="com.example.fatisdaprofilemobile.ui.profil.ProfilFragment"
-        android:label="@string/title_profil"
-        tools:layout="@layout/fragment_profil" />
 
     <fragment
         android:id="@+id/navigation_kemahasiswaan"
@@ -28,4 +22,37 @@
         android:name="com.example.fatisdaprofilemobile.ui.prodi.ProdiFragment"
         android:label="@string/prodi"
         tools:layout="@layout/fragment_prodi" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.fatisdaprofilemobile.ui.profil.ProfilFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profil">
+        <action
+            android:id="@+id/action_profilFragment_to_sejarahFragment"
+            app:destination="@id/navigation_sejarah" />
+        <action
+            android:id="@+id/action_profilFragment_to_VisiMisiTujuanFragment"
+            app:destination="@id/navigation_VisiMisiTujuan" />
+        <action
+            android:id="@+id/action_profilFragment_to_KompetensiFragment"
+            app:destination="@id/navigation_Kompetensi" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sejarah"
+        android:name="com.example.fatisdaprofilemobile.ui.profil.SejarahFragment"
+        android:label="Sejarah Fragment"
+        tools:layout="@layout/fragment_text" />
+
+    <fragment
+        android:id="@+id/navigation_VisiMisiTujuan"
+        android:name="com.example.fatisdaprofilemobile.ui.profil.VisiMisiTujuanFragment"
+        android:label="Visi Misi Tujuan Fragment"
+        tools:layout="@layout/fragment_text" />
+
+    <fragment
+        android:id="@+id/navigation_Kompetensi"
+        android:name="com.example.fatisdaprofilemobile.ui.profil.KompetensiFragment"
+        android:label="Kompetensi Fragment"
+        tools:layout="@layout/fragment_text" />
 </navigation>
