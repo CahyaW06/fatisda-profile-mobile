@@ -42,6 +42,14 @@ class ProfilFragment : Fragment() {
         button3.setOnClickListener {
             findNavController().navigate(R.id.action_profilFragment_to_KompetensiFragment)
         }
+        val button4: Button = view.findViewById(R.id.button4)
+        button4.setOnClickListener {
+            findNavController().navigate(R.id.action_profilFragment_to_PengajarFragment)
+        }
+        val button5: Button = view.findViewById(R.id.button5)
+        button5.setOnClickListener {
+            findNavController().navigate(R.id.action_profilFragment_to_KependidikanFragment)
+        }
         return view
 
     }

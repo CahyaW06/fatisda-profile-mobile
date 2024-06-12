@@ -36,6 +36,12 @@
         <action
             android:id="@+id/action_profilFragment_to_KompetensiFragment"
             app:destination="@id/navigation_Kompetensi" />
+        <action
+            android:id="@+id/action_profilFragment_to_PengajarFragment"
+            app:destination="@id/navigation_Pengajar" />
+        <action
+            android:id="@+id/action_profilFragment_to_KependidikanFragment"
+            app:destination="@id/navigation_Kependidikan" />
     </fragment>
 
     <fragment
@@ -54,5 +60,17 @@
         android:id="@+id/navigation_Kompetensi"
         android:name="com.example.fatisdaprofilemobile.ui.profil.KompetensiFragment"
         android:label="Kompetensi Fragment"
+        tools:layout="@layout/fragment_text" />
+
+    <fragment
+        android:id="@+id/navigation_Pengajar"
+        android:name="com.example.fatisdaprofilemobile.ui.profil.PengajarFragment"
+        android:label="Pengajar Fragment"
+        tools:layout="@layout/fragment_pengajar" />
+
+    <fragment
+        android:id="@+id/navigation_Kependidikan"
+        android:name="com.example.fatisdaprofilemobile.ui.profil.KependidikanFragment"
+        android:label="Kependidikan Fragment"
         tools:layout="@layout/fragment_text" />
 </navigation>
