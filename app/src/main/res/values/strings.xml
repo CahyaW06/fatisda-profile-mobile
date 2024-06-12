@@ -10,6 +10,7 @@
     <string name="deskripsi_akademik">Deskripsi Akademik</string>
 
     <string name="dummy_text">lorem ipsum</string>
+    <string name="dummy_text2">Alan</string>
 
     <!--  Akademik  -->
     <string-array name="judul_akademik">
